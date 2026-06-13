@@ -11,5 +11,5 @@ if (activeUser) {
 
 logoutBtn.addEventListener("click", () => {
   sessionStorage.removeItem("currentUser");
-  window.location.href = "/index.html";
+  window.location.href = "https://kennah5363.github.io/schoolmanagement/index.html";
 });
