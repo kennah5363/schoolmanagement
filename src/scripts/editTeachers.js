@@ -56,9 +56,6 @@ window.editTeacher = function (admNo) {
     editTeacherForm.course.value = teacher.course;
     editTeacherForm.age.value = teacher.age;
     editTeacherForm.address.value = teacher.address;
-    editTeacherForm.guardianName.value = teacher.guardianName;
-    editTeacherForm.guardianPhone.value = teacher.guardianPhone;
-    editTeacherForm.guardianRelationship.value = teacher.guardianRelationship;
 }
 
 
@@ -79,9 +76,6 @@ editTeacherForm.addEventListener('submit', (e) => {
             age: formData.get('age'),
             address: formData.get('address'),
             course: formData.get('course'),
-            guardianName: formData.get('guardianName'),
-            guardianPhone: formData.get('guardianPhone'),
-            guardianRelationship: formData.get('guardianRelationship'),
             password: formData.get('admNo')
         };
 
