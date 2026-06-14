@@ -5,7 +5,7 @@ if (activeUser) {
   welcomeMessage.textContent = `Welcome, ${activeUser.name}!`;
 }
  else {
-  window.location.href = "/index.html";
+  window.location.href = "https://kennah5363.github.io/schoolmanagement/index.html";
 }
 
 
