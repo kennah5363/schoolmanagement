@@ -15,11 +15,8 @@
                     row.insertCell(1).textContent = teacher.name;
                     row.insertCell(2).textContent = teacher.phone;
                     row.insertCell(3).textContent = teacher.course;
-                    row.insertCell(4).textContent = teacher.age;
+                    row.insertCell(4).textContent = teacher.email;
                     row.insertCell(5).textContent = teacher.address;
-                    row.insertCell(6).textContent = teacher.guardianName;
-                    row.insertCell(7).textContent = teacher.guardianPhone;
-                    row.insertCell(8).textContent = teacher.guardianRelationship;
                     const actionsCell = row.insertCell(9);
                     actionsCell.innerHTML = `
     <button 
