@@ -17,7 +17,7 @@
                     row.insertCell(3).textContent = teacher.course;
                     row.insertCell(4).textContent = teacher.email;
                     row.insertCell(5).textContent = teacher.address;
-                    const actionsCell = row.insertCell(9);
+                    const actionsCell = row.insertCell(6);
                     actionsCell.innerHTML = `
     <button 
         class="btn btn-sm btn-outline-primary"
