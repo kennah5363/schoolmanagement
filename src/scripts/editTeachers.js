@@ -76,7 +76,7 @@ editTeacherForm.addEventListener('submit', (e) => {
             age: formData.get('age'),
             address: formData.get('address'),
             course: formData.get('course'),
-            password: formData.get('admNo')
+            password: formData.get('nationalId') // Assuming you want to update the password with the national ID
         };
 
         localStorage.setItem('teachers', JSON.stringify(teachers));
