@@ -54,7 +54,7 @@ window.editTeacher = function (admNo) {
     editTeacherForm.name.value = teacher.name;
     editTeacherForm.phone.value = teacher.phone;
     editTeacherForm.course.value = teacher.course;
-    editTeacherForm.age.value = teacher.age;
+    editTeacherForm.email.value = teacher.email;
     editTeacherForm.address.value = teacher.address;
 }
 
@@ -73,7 +73,7 @@ editTeacherForm.addEventListener('submit', (e) => {
             admNo: formData.get('admNo'),
             name: formData.get('name'),
             phone: formData.get('phone'),
-            age: formData.get('age'),
+            age: formData.get('email'),
             address: formData.get('address'),
             course: formData.get('course'),
             password: formData.get('nationalId') // Assuming you want to update the password with the national ID
