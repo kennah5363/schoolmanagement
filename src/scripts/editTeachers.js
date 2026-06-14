@@ -30,7 +30,7 @@
 
     <button 
         class="btn btn-sm btn-outline-danger"
-        onclick="deleteteacher('${teacher.admNo}')">
+        onclick="deleteTeacher('${teacher.admNo}')">
         Delete
     </button>
 `;
